@@ -1,0 +1,35 @@
+{
+  "name": "@touchtribe/ui-components",
+  "description": "A collection of React UI component to speed up development",
+  "version": "0.0.0",
+  "private": false,
+  "author": "Maarten Jongerius",
+  "homepage": "https://github.com/mnjongerius/pdp-ui-package",
+  "scripts": {
+
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  },
+  "contributors": [
+    "Maarten Jongerius <maarten@touchtribe.nl> (https://github.com/mnjongerius)"
+  ],
+  "bugs": {
+    "url": "https://github.com/mnjongerius/pdp-ui-package/issues"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "library"
+  ],
+  "repository": "",
+  "licenses": [
+    {
+      "type": "GPL-3.0",
+      "url": "https://opensource.org/licenses/GPL-3.0"
+    }
+  ]
+}
