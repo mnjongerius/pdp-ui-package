@@ -1,9 +1,9 @@
-#@touchtribe/ui-components
+# @touchtribe/ui-components
 
 A collection of React UI component to speed up development
 
-##Components
+## Components
 
 - [ ] Button
 
-<small>Checked = DONE</small>
+<sub>Checked = DONE</sub>
