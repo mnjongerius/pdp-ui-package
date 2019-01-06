@@ -11,13 +11,17 @@
     "dist"
   ],
   "scripts": {
-    "build": "echo TODO: create build script"
+    "build": "babel src -d dist"
   },
   "dependencies": {
-
+    "@babel/polyfill": "^7.2.5"
   },
   "devDependencies": {
-
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0"
   },
   "contributors": [
     "Maarten Jongerius <maarten@touchtribe.nl> (https://github.com/mnjongerius)"
