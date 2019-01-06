@@ -5,8 +5,11 @@
   "private": false,
   "author": "Maarten Jongerius",
   "homepage": "https://github.com/mnjongerius/pdp-ui-package",
-  "main": "dist/index.js",
   "license": "GPL-3.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "echo TODO: create build script"
   },
