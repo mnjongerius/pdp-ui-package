@@ -1,11 +1,25 @@
 import React from 'react'
 
 import { storiesOf } from '@storybook/react'
-import Component from './index'
+import {
+  UnstyledButton,
+  MinimalButton,
+  StyledButton
+} from './index'
 
 storiesOf('Components|TODO', module)
-  .add('Default', () => (
-    <Component>
+  .add('UnstyledButton', () => (
+    <UnstyledButton>
       foo
-    </Component>
+    </UnstyledButton>
+  ))
+  .add('MinimalButton', () => (
+    <MinimalButton>
+      foo
+    </MinimalButton>
+  ))
+  .add('StyledButton', () => (
+    <StyledButton>
+      foo
+    </StyledButton>
   ))

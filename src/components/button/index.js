@@ -1,13 +1,11 @@
-import React from 'react'
+import UnstyledButton from './unstyled'
+import MinimalButton from './minimal'
+import StyledButton from './styled'
 
-const Button = ({as, children}) => {
-    const Component = as
-    return (
-        <Component className="ui-button">{children}</Component>
-    )
-}
-Button.defaultProps = {
-  as: 'div'
+export {
+  UnstyledButton,
+  MinimalButton,
+  StyledButton
 }
 
-export default Button
+export default UnstyledButton
