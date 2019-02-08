@@ -13,4 +13,6 @@ storiesOf('Button', module)
     <Button onClick={onClick}>
       Click me!
     </Button>
-  ))
+  ), {
+    info: `Component to render a button`
+  })

@@ -2,7 +2,7 @@
 
 A collection of React UI component to speed up development
 
-See the Storybook here: [mnjongerius.github.io/pdp-ui-package](https://mnjongerius.github.io/pdp-ui-package)
+Check the [![Storybook](https://github.com/storybooks/press/blob/master/badges/storybook.svg)](https://mnjongerius.github.io/pdp-ui-package) for documentation
 
 ## Installation
 
