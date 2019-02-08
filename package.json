@@ -6,7 +6,7 @@
   "author": "Maarten Jongerius",
   "homepage": "https://github.com/mnjongerius/pdp-ui-package",
   "license": "GPL-3.0",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "files": [
     "src"
   ],
