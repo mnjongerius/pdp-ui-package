@@ -1,25 +1,16 @@
 import React from 'react'
 
 import { storiesOf } from '@storybook/react'
-import {
-  UnstyledButton,
-  MinimalButton,
-  StyledButton
-} from './index'
+import Button from './index'
+import './styles/index.scss'
 
-storiesOf('Components|TODO', module)
-  .add('UnstyledButton', () => (
-    <UnstyledButton>
-      foo
-    </UnstyledButton>
-  ))
-  .add('MinimalButton', () => (
-    <MinimalButton>
-      foo
-    </MinimalButton>
-  ))
-  .add('StyledButton', () => (
-    <StyledButton>
-      foo
-    </StyledButton>
+const onClick = () => {
+  alert('You clicked the button!')
+}
+
+storiesOf('Button', module)
+  .add('Default', () => (
+    <Button onClick={onClick}>
+      Click me!
+    </Button>
   ))

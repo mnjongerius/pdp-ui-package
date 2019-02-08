@@ -1,0 +1,16 @@
+.ui-button {
+  display: block;
+  padding: 9px 19px;
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: white;
+  color: darkgrey;
+  border: 1px solid darkgrey;
+  cursor: pointer;
+
+  &:hover {
+    color: white;
+    background-color: darkgrey;
+  }
+}
