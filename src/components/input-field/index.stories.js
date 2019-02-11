@@ -21,6 +21,7 @@ storiesOf('InputField', module)
   })
   .add('Default', () => (
       <InputField
+        name="input-field"
         value="Default value"
         onFocus={onFocus}
         onChange={onChange}
