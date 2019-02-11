@@ -42,11 +42,13 @@ class InputField extends React.Component {
     const {
       type,
       name,
-      className
+      className,
+      ...props
     } = this.props
     const { value } = this.state
     return (
       <input
+        {...props}
         type={type}
         name={name}
         className={className}

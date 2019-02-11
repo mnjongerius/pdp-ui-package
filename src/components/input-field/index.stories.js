@@ -19,7 +19,11 @@ const onBlur = function onBlur () {
 storiesOf('InputField', module)
   .addParameters({
     info: {
-      text: `Component to render a input-field`
+      text: `Component to render a input-field.
+ 
+Renders a \`<input/>\` element.
+
+All props are passed on to the rendered element.`
     }
   })
   .add('Default', () => (
