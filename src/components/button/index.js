@@ -4,7 +4,13 @@ import PropTypes from 'prop-types'
 const Button = ({ className, as, children, onClick, ...props }) => {
   const Component = as
   return (
-    <Component className={className} onClick={onClick} {...props}>{children}</Component>
+    <Component
+      {...props}
+      className={className}
+      onClick={onClick}
+    >
+      {children}
+    </Component>
   )
 }
 Button.propTypes = {
