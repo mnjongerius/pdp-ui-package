@@ -19,7 +19,7 @@ Button.propTypes = {
 }
 Button.defaultProps = {
   as: 'div',
-  className: 'ui-button',
+  className: 'c-button',
   onClick: () => {}
 }
 
