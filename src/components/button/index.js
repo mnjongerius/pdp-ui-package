@@ -1,16 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Button = ({ className, as, children, onClick, ...props }) => {
+const Button = ({ as, ...props }) => {
   const Component = as
   return (
-    <Component
-      {...props}
-      className={className}
-      onClick={onClick}
-    >
-      {children}
-    </Component>
+    <Component {...props} />
   )
 }
 Button.propTypes = {
