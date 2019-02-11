@@ -5,7 +5,7 @@ import Button from './index'
 import './styles/index.scss'
 
 const onClick = () => {
-  alert('You clicked the button!')
+  console.warn('You clicked the button!')
 }
 
 storiesOf('Button', module)
