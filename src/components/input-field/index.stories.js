@@ -5,12 +5,15 @@ import InputField from './index'
 import './styles/index.scss'
 
 const onFocus = function onFocus () {
+  console.warn('onFocus event')
 }
 
 const onChange = function onChange () {
+  console.warn('onChange event')
 }
 
 const onBlur = function onBlur () {
+  console.warn('onBlur event')
 }
 
 storiesOf('InputField', module)
