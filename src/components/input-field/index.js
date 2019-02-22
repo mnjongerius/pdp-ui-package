@@ -39,5 +39,4 @@ InputField.defaultProps = {
   onBlur: () => {}
 }
 
-
 export default InputField

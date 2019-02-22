@@ -11,5 +11,12 @@ Check the [![Storybook](https://github.com/storybooks/press/blob/master/badges/s
 ## Components
 
 - [ ] Button
+- [ ] TextInput
+- [ ] TextArea
+- [ ] CheckBox
+- [ ] RadioButton
+- [ ] InputGroup
+- [ ] Label
+- [ ] Loader
 
 <sub>Checked = DONE</sub>
